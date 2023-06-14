@@ -1,0 +1,160 @@
+
+  
+  .google-btn {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Estilos CSS aquí */
+
+  #userlogin {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*
+  body {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://c1.wallpaperflare.com/preview/871/219/673/wine-romance-evening-meal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.search {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#drinksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.drink {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.drink img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+#detailsContainer {
+  display: none;
+}
+
+.details {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.details img {
+  max-width: 200px;
+}
+
+.drink-img {
+  cursor: pointer;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.options {
+  margin-top: 10px;
+}
+
+.options p {
+  font-size: 14px;
+}
+
+.options a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}

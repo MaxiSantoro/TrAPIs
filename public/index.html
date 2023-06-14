@@ -1,0 +1,27 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Bebidas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body> 
+  <div class="container">
+    <h1>Página de Bebidas</h1>
+    <div class="buttons">
+      <button id="start">Inicio</button>
+      <button id="drinks">Bebidas</button>
+      <button id="newDrinks" onclick="redirectToNewView()">Nueva bebida</button>
+    </div>
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Buscar bebida...">
+      <button id="searchBtn">Buscar</button>
+    </div>
+    <div id="drinksContainer"></div>
+    <div id="detailsContainer"></div>
+  </div>
+  <script src="app.js"></script>
+  <script src="evento.js"></script>
+</body>
+</html>
+

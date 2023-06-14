@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dictionary lookup</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Página de Bebidas</h1>
+        <div class="buttons">
+          <button id="start">Inicio</button>
+          <button id="drinks">Bebidas</button>
+          <button id="newDrinks" onclick="redirectToNewView()">Nueva bebida</button>
+        </div>
+        <div class="search">
+          <input type="text" id="searchInput" placeholder="Buscar bebida...">
+          <button id="searchBtn">Buscar</button>
+        </div>
+        <div id="drinksContainer"></div>
+        <div id="detailsContainer"></div>
+      </div>
+    <div id="results" class="hidden">
+      <form id="set">
+        <h2>
+          Sugerinos un nuevo trago
+        </h2>
+        <p>
+        Nombre:
+        </p>
+        <input id="set-name-input" type="text" id="word"/>
+        <p>
+          Ingredientes:
+        </p>
+        <textarea id="definition"></textarea>
+        <input type="submit" value="Set" id="set-def-input">
+        <p id="status"></p>
+      </form>
+    </div>
+    <script src="evento.js"></script>
+    <script type= "module" src="app.js" defer></script>
+  </body>
+</html>
